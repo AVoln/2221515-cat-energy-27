@@ -1,0 +1,1 @@
+document.querySelector("body").classList.remove("nojs");let pageHeader=document.querySelector(".page-header"),navToggle=document.querySelector(".page-header__toggle");navToggle.addEventListener("click",(function(){pageHeader.classList.contains("page-header--nav-open")?pageHeader.classList.remove("page-header--nav-open"):pageHeader.classList.add("page-header--nav-open")}));
